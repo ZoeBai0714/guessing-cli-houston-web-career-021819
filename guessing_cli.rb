@@ -10,7 +10,8 @@ def run_guessing_game
     puts "The computer guessed #{computer_answer}."
    end
   end
-  #break if answer == "exit"
+  break if answer == "exit"
+  end
 end
 
 =begin
